@@ -6,7 +6,7 @@ import numpy as np
 
 class Particle:
     """Stores information about a particle with mass, position, and velocity."""
-    
+
     def __init__(self, Position, M):
         """Create a particle with position (numpy array of len 2) and mass."""
         self.pos = Position   # Sets x position
